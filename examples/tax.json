@@ -1,0 +1,17 @@
+{
+  "fy": "2024-25",
+  "age": 30,
+  "resident": true,
+  "gross_salary": 1500000,
+  "hra_salary": 600000,
+  "hra_received": 300000,
+  "rent_paid": 240000,
+  "metro": false,
+  "deduction_80c": 150000,
+  "nps_80ccd1b": 50000,
+  "health_self": 25000,
+  "health_parents": 50000,
+  "parents_senior": true,
+  "home_interest": 200000,
+  "home_eligible_2l": true
+}

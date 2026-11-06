@@ -1,0 +1,183 @@
+{
+  "rows": 12000,
+  "missing_counts": {
+    "unique_key": 0,
+    "created_date": 0,
+    "closed_date": 261,
+    "agency": 0,
+    "complaint_type": 0,
+    "descriptor": 206,
+    "status": 0,
+    "resolution_description": 155,
+    "incident_zip": 194,
+    "borough": 0,
+    "latitude": 142,
+    "longitude": 142
+  },
+  "year_counts": {
+    "2023": 12000
+  },
+  "agencies": {
+    "DOHMH": 169,
+    "NYPD": 7981,
+    "DOT": 491,
+    "HPD": 1711,
+    "DEP": 477,
+    "TLC": 57,
+    "DSNY": 326,
+    "DOB": 166,
+    "DCWP": 34,
+    "DHS": 223,
+    "DPR": 171,
+    "DOE": 3,
+    "EDC": 191
+  },
+  "rule_flags": {
+    "reversed_dates": {
+      "count": 11,
+      "reasons": [
+        "closed_date precedes created_date"
+      ],
+      "examples": [
+        {
+          "row_index": 9136,
+          "unique_key": "59436693",
+          "created_date": "2023-10-01T00:09:48.000",
+          "closed_date": "2023-10-01T00:00:00.000",
+          "agency": "HPD",
+          "borough": "BRONX",
+          "text_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91"
+        },
+        {
+          "row_index": 9266,
+          "unique_key": "59457216",
+          "created_date": "2023-10-01T00:19:25.000",
+          "closed_date": "2023-10-01T00:00:00.000",
+          "agency": "HPD",
+          "borough": "MANHATTAN",
+          "text_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91"
+        },
+        {
+          "row_index": 9312,
+          "unique_key": "59450461",
+          "created_date": "2023-10-01T00:22:33.000",
+          "closed_date": "2023-10-01T00:00:00.000",
+          "agency": "HPD",
+          "borough": "QUEENS",
+          "text_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91"
+        }
+      ]
+    },
+    "near_duplicates": {
+      "count": 663,
+      "reasons": [
+        "Same agency/category/borough/ZIP; timestamps within 120s; text similarity >=0.92"
+      ],
+      "examples": [
+        {
+          "row_index": 29,
+          "unique_key": "56415996",
+          "created_date": "2023-01-01T00:05:45.000",
+          "closed_date": "2023-01-01T01:03:02.000",
+          "agency": "NYPD",
+          "borough": "BROOKLYN",
+          "text_sha256": "35e67fbaa417c49987375fb8a573a08fbf1a4a6fad877e234c489dcd256bf709"
+        },
+        {
+          "row_index": 36,
+          "unique_key": "56413092",
+          "created_date": "2023-01-01T00:06:14.000",
+          "closed_date": "2023-01-01T01:01:29.000",
+          "agency": "NYPD",
+          "borough": "BROOKLYN",
+          "text_sha256": "35e67fbaa417c49987375fb8a573a08fbf1a4a6fad877e234c489dcd256bf709"
+        },
+        {
+          "row_index": 39,
+          "unique_key": "56417743",
+          "created_date": "2023-01-01T00:06:37.000",
+          "closed_date": "2023-01-01T01:02:04.000",
+          "agency": "NYPD",
+          "borough": "BROOKLYN",
+          "text_sha256": "35e67fbaa417c49987375fb8a573a08fbf1a4a6fad877e234c489dcd256bf709"
+        }
+      ]
+    },
+    "resolution_status": {
+      "count": 138,
+      "reasons": [
+        "Explicit lexical disagreement between status and resolution text; requires review"
+      ],
+      "examples": [
+        {
+          "row_index": 7,
+          "unique_key": "56417406",
+          "created_date": "2023-01-01T00:01:18.000",
+          "closed_date": "2023-01-02T20:24:10.000",
+          "agency": "HPD",
+          "borough": "MANHATTAN",
+          "text_sha256": "96b198c7efded3fb30ce6ea0c75946080236626f912e9a39075569062227c987"
+        },
+        {
+          "row_index": 83,
+          "unique_key": "56419100",
+          "created_date": "2023-01-01T00:13:34.000",
+          "closed_date": "2023-01-04T15:57:02.000",
+          "agency": "HPD",
+          "borough": "QUEENS",
+          "text_sha256": "96b198c7efded3fb30ce6ea0c75946080236626f912e9a39075569062227c987"
+        },
+        {
+          "row_index": 528,
+          "unique_key": "56419142",
+          "created_date": "2023-01-01T01:23:26.000",
+          "closed_date": "2023-01-02T20:24:10.000",
+          "agency": "HPD",
+          "borough": "MANHATTAN",
+          "text_sha256": "96b198c7efded3fb30ce6ea0c75946080236626f912e9a39075569062227c987"
+        }
+      ]
+    },
+    "personal_data": {
+      "count": 520,
+      "reasons": [
+        "Email, formatted phone or cue-based full-name pattern; incomplete PII coverage"
+      ],
+      "examples": [
+        {
+          "row_index": 7,
+          "unique_key": "56417406",
+          "created_date": "2023-01-01T00:01:18.000",
+          "closed_date": "2023-01-02T20:24:10.000",
+          "agency": "HPD",
+          "borough": "MANHATTAN",
+          "text_sha256": "96b198c7efded3fb30ce6ea0c75946080236626f912e9a39075569062227c987"
+        },
+        {
+          "row_index": 15,
+          "unique_key": "56415422",
+          "created_date": "2023-01-01T00:02:00.000",
+          "closed_date": "2023-01-05T09:04:00.000",
+          "agency": "DEP",
+          "borough": "BROOKLYN",
+          "text_sha256": "c5c52193577cc892d82930daaa95c880aef2079953a021b49a15b52245e9466f"
+        },
+        {
+          "row_index": 83,
+          "unique_key": "56419100",
+          "created_date": "2023-01-01T00:13:34.000",
+          "closed_date": "2023-01-04T15:57:02.000",
+          "agency": "HPD",
+          "borough": "QUEENS",
+          "text_sha256": "96b198c7efded3fb30ce6ea0c75946080236626f912e9a39075569062227c987"
+        }
+      ]
+    }
+  },
+  "caveats": [
+    "Missing optional descriptor, coordinates and closure date may be valid.",
+    "Reversed dates and duplicates are structural findings; semantic flags require adjudication.",
+    "ZIP/category profiles derived from this sample cannot independently validate their own associations.",
+    "Near-duplicate similarity can flag legitimate repeated complaints. Text examples are redacted."
+  ]
+}

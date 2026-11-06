@@ -1,0 +1,10 @@
+{
+  "official_calculator_gate": false,
+  "gemini_experiments_present": false,
+  "full_gemini_tax_suite": false,
+  "laptop_throughput_measured": false,
+  "independent_semantic_ground_truth": false,
+  "contemporaneous_test_first_history": false,
+  "human_timed_law_migration": false,
+  "ready_to_claim_assignment_complete": false
+}

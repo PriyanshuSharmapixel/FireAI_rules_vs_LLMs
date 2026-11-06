@@ -1,0 +1,328 @@
+{
+  "measurements": [
+    {
+      "implementation": "handwritten",
+      "taxpayer_cases": 2296,
+      "evaluated_outputs": 4592,
+      "correct_outputs": 4592,
+      "accuracy": 1.0,
+      "errors": [],
+      "median_ms": 0.020382999991852557,
+      "p95_ms": 0.047869999889371684,
+      "total_seconds": 0.19278220100022736,
+      "trace_nonempty_clause_outputs": 4592,
+      "trace_legal_review": "Clause labels and arithmetic trace present; source correctness not independently audited",
+      "repetition_inputs": 60,
+      "repetitions_per_input": 10,
+      "differing_inputs": 0,
+      "paid_api_usd_per_1000_requests": 0,
+      "compute_cost": "Not monetized; execution-host timings, not laptop timings"
+    },
+    {
+      "implementation": "compiled_codex",
+      "taxpayer_cases": 2296,
+      "evaluated_outputs": 4592,
+      "correct_outputs": 4592,
+      "accuracy": 1.0,
+      "errors": [],
+      "median_ms": 0.06537099989145645,
+      "p95_ms": 0.20562700001391931,
+      "total_seconds": 0.498428734999834,
+      "trace_nonempty_clause_outputs": 4592,
+      "trace_legal_review": "Clause labels and arithmetic trace present; source correctness not independently audited",
+      "repetition_inputs": 60,
+      "repetitions_per_input": 10,
+      "differing_inputs": 0,
+      "paid_api_usd_per_1000_requests": 0,
+      "compute_cost": "Not monetized; execution-host timings, not laptop timings"
+    }
+  ],
+  "parser": {
+    "cases": 50,
+    "correct_status": 50,
+    "details": [
+      {
+        "id": "complete-0",
+        "expected": "ready",
+        "actual": "ready"
+      },
+      {
+        "id": "complete-1",
+        "expected": "ready",
+        "actual": "ready"
+      },
+      {
+        "id": "complete-2",
+        "expected": "ready",
+        "actual": "ready"
+      },
+      {
+        "id": "complete-3",
+        "expected": "ready",
+        "actual": "ready"
+      },
+      {
+        "id": "complete-4",
+        "expected": "ready",
+        "actual": "ready"
+      },
+      {
+        "id": "complete-5",
+        "expected": "ready",
+        "actual": "ready"
+      },
+      {
+        "id": "complete-6",
+        "expected": "ready",
+        "actual": "ready"
+      },
+      {
+        "id": "complete-7",
+        "expected": "ready",
+        "actual": "ready"
+      },
+      {
+        "id": "complete-8",
+        "expected": "ready",
+        "actual": "ready"
+      },
+      {
+        "id": "complete-9",
+        "expected": "ready",
+        "actual": "ready"
+      },
+      {
+        "id": "ambiguous-0",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "ambiguous-1",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "ambiguous-2",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "ambiguous-3",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "ambiguous-4",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "ambiguous-5",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "ambiguous-6",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "ambiguous-7",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "ambiguous-8",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "ambiguous-9",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "ambiguous-10",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "ambiguous-11",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "ambiguous-12",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "ambiguous-13",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "ambiguous-14",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "ambiguous-15",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "ambiguous-16",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "ambiguous-17",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "ambiguous-18",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "ambiguous-19",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "varied-0",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "varied-1",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "varied-2",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "varied-3",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "varied-4",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "varied-5",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "varied-6",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "varied-7",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "varied-8",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "varied-9",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "varied-10",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "varied-11",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "varied-12",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "varied-13",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "varied-14",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "varied-15",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "varied-16",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "varied-17",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "varied-18",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      },
+      {
+        "id": "varied-19",
+        "expected": "needs_clarification",
+        "actual": "needs_clarification"
+      }
+    ],
+    "note": "Conservative rule-parser readiness/clarification check; not Gemini extraction accuracy."
+  },
+  "official_validation": {
+    "verified_regime_checks": 0,
+    "distinct_cases_both_regimes": 0,
+    "required_cases_both_regimes": 30,
+    "mismatches": [],
+    "invalid_evidence": [],
+    "passes_gate": false
+  },
+  "law_change_simulation": [
+    {
+      "implementation": "handwritten",
+      "evaluated_outputs": 2296,
+      "stale_year_silent_wrong_answers": 821,
+      "updated_wrong_answers": 0,
+      "regression_seconds": 0.23928725199994005,
+      "human_update_time_seconds": null,
+      "note": "Simulated stale-year routing, not a contemporaneously timed human implementation migration."
+    },
+    {
+      "implementation": "compiled_codex",
+      "evaluated_outputs": 2296,
+      "stale_year_silent_wrong_answers": 821,
+      "updated_wrong_answers": 0,
+      "regression_seconds": 0.6291266140001426,
+      "human_update_time_seconds": null,
+      "note": "Simulated stale-year routing, not a contemporaneously timed human implementation migration."
+    }
+  ],
+  "llm_runtime_status": "NOT_RUN: missing Gemini credentials/model",
+  "compiled_origin": "Codex generated the reviewed JSON configuration; Gemini compilation path is implemented but has not run.",
+  "fixture_provenance": "Frozen independently coded piecewise-formula oracle. Not official-calculator ground truth."
+}
